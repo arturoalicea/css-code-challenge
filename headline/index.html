@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>V+V Code Challenge - Headline</title>
 </head>
+<style>
+  body {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #7a86cb;
+  }
+
+  h1 {
+    letter-spacing: 5px;
+    font-family: 'Merriweather';
+    font-weight: normal;
+    color: #6849e3;
+    font-size: 64px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    border-top: none;
+    border-bottom: none;
+    padding: 10px;
+    width: 0%;
+  }
+
+  /* Changing background, border and content colors when hover on h1 text.. */
+  h1:hover {
+    color: aliceblue;
+    border-top: 1px solid #6849e3;
+    border-bottom: 1px solid #6849e3;
+    transition: .5s ease-in-out;
+    font-size: 58px;
+    width: 95%;
+  }
+</style>
+
 <body>
   <div class="text-wrapper">
     <h1>
       INTERNET
     </h1>
-  </div>  
+  </div>
   <!--
   PALETTE: 
     Background: #7a86cb
@@ -19,4 +55,5 @@
     Merriweather (Google Font)
   -->
 </body>
+
 </html>
